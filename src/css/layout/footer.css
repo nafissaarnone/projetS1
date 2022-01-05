@@ -4,16 +4,21 @@
     height: auto;
     
 }
-.footer__img {
-    margin-left: ;
-    text-align:;
+.footer__title {
+    margin-left: 5rem;
+    text-align:left;
+    position: relative;
+    top: 2rem;
 
 }
-.footer__title {
-    margin: left;
-    text-align:left;
+.footer__title img {
+    position: absolute;
+    left:-2rem;
+    top: 0rem;
 }
 .footer__name {
+    margin-right: 2rem;
+    text-align:right;
 
 }
 .footer__text {

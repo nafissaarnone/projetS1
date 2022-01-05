@@ -2,4 +2,20 @@ img {
     max-width: 100%;
     height: auto;
 }
-
+.imgacc {
+    align-self: center;
+    width: 270px;
+    margin-left: 35px;
+    border-radius: 5%;
+  }
+  
+  .imgart {
+    align-self: center;
+    width: 330px;
+    margin-left: 22px;
+  }
+  
+  .img_decouverte {
+    width: 50%;
+    margin-left: 89px;
+  }

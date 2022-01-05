@@ -12,10 +12,11 @@
 /*Component*/
 @import url("components/card.css");
 @import url("components/menu.css");
-
+@import url("components/gabrit.css");
 
 
 /*layout*/
 @import url("layout/header.css");
 @import url("layout/footer.css");
+
 
