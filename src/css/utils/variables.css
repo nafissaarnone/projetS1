@@ -1,0 +1,24 @@
+:root {
+    /* Color styles */
+--bandeau: rgba(19, 40, 107, 1);
+--footer: rgba(11, 24, 64, 1);
+--button: rgba(199, 145, 61, 1);
+
+    /* Text-size styles */
+/* base size: r-e-m (16px) */
+--header-1: 1.19rem;
+--header-2: 1.62rem;
+--header-3: 1.25rem;
+--body: 0.81rem;
+--button: 0.88rem;
+--r-e-m: 1rem;
+
+/* Font family */
+--header-Anton:'Anton', sans-serif; 
+--header-Lucky:'Luckiest Guy', sans-serif;
+-moz-background-inline-policy: var(--button);
+--font-body:'Roboto', sans-serif;
+
+
+
+}

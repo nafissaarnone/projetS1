@@ -1,0 +1,14 @@
+.header {
+    background-color: white;
+    position: relative;
+    padding: 10px;
+}
+.header__title{
+    margin: 0;
+    text-align: center;
+}
+
+
+.hero__background {
+    width: 100%;
+}

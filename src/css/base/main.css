@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    background-image: url("../../../public/images/fixedBackground.png");
+
+}
+h1 {
+ font-family:var(--header-Lucky);
+ font-size: var(--header-1);
+ 
+}
+h2 {
+    font-family: var(--header-Anton);
+    font-size: var(--header-2);
+    
+}
+h3 {
+    color: white;
+}
+
+p{
+    color: white;
+    font-family: var(--header-body);
+}

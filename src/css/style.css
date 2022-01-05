@@ -1,0 +1,21 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/*vendors*/
+@import url("vendors/normalize.css");
+/*utils*/
+@import url("utils/variables.css");
+/*Base*/
+@import url("base/main.css");
+@import url("base/media.css");
+/*Component*/
+@import url("components/card.css");
+@import url("components/menu.css");
+
+
+
+/*layout*/
+@import url("layout/header.css");
+@import url("layout/footer.css");
+
