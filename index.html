@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title> 
 
     <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/fonction.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"defer></script>
+
 </head>
 <body>
     <header class="header">
@@ -30,26 +34,41 @@
         <img class="hero__img" src="public/images/Main image.jpg" alt="image">
         <p class="r">Les gardiens de la galaxie sont une équipe de héros composée de Star Lord, Groot, Gamora, Rocket, Drax et Nébula. Ces déglingos de l'espace parcourent l'univers afin de le protéger et d'y faire justice. Malheureusement cela laisse parfois quelques traces dans les multiples mondes qu'ils visitent (si ça n'entraine pas leur totale... disparition). En effet </p>
     
-        <button>Afficher la suite</button>
-        <img src="public/images/maxresdefault2.jpg" alt="video">
+        <div class="hero__card card">
+            <h3 class="card__title">Les Gardiens, des Héros qui n'ont pas ( tous ) la main verte</h3>
+            <img class="card__img" src="public/images/vaisseaux.jpg" alt="vaisseau">
+            <p class="card__text">Les gardiens de la galaxie sont-ils vraiment des héros ? Sûrement pas pour l’écologie ! Il devient urgent de se pencher sur leurs délits</p>
+            <a class="card__btn" href="index.html">Afficher la suite</a>
+        </div>
+        <img src="public/images/photo_video.jpg" alt="video">
     
-        <h2>Les Gardiens, des Héros qui n'ont pas ( tous ) la main verte</h2>
-        <img src="public/images/the-milano-3840x2160-spaceship-guardians-of-the-galaxy-5k-5958.jpg" alt="vaisseau">
-        <p>Les gardiens de la galaxie sont-ils vraiment des héros ? Sûrement pas pour l’écologie ! Il devient urgent de se pencher sur leurs délits</p>
     
-        <button>Lire la suite</button>
-        <h1>Pollution automobile et bilan Co2</h1>
-        <img src="public/images/Image haut de page 2.jpg" alt="personnage">
-        <p>Tandis que nos gardiens parcourent des kilomètres avec leur vaisseau, le Co2 devient de plus en plus présent dans notre atmosphère.</p>
-        <button>Lire la suite</button>
-        <h1>Comment combattre le Co2 émis par les gardiens ?</h1>
-        <img src="public/images/Image haut de page 3.jpg" alt="personnage2">
-        <p>Heureusement pour nous, nous disposons aujourd’hui de nombreux moyens pour lutter contre le réchauffement climatique. En voici quelques-uns.</p>
-        <button>Lire la suite</button>
+        <div class="hero__card card">
+            <h3 class="card__title">Pollution automobile et bilan Co2Comment combattre le Co2 émis par les gardiens ?</h3>
+            <img class="card__img" src="public/images/Image3.jpg" alt="personnage">
+            <p class="card__text">Tandis que nos gardiens parcourent des kilomètres avec leur vaisseau, le Co2 devient de plus en plus présent dans notre atmosphère.</p>
+            <a class="card__btn" href="index.html">Lire la suite</a>
+        </div>
+        <div class="hero__card card">
+            <h3 class="card__title">Comment combattre le Co2 émis par les gardiens ?</h3>
+            <img class="card__img" src="public/images/Image4.jpg" alt="personnage2">
+            <p class="card__text">Heureusement pour nous, nous disposons aujourd’hui de nombreux moyens pour lutter contre le réchauffement climatique. En voici quelques-uns.</p>
+            <a class="card__btn" href="index.html">Lire la suite</a>
+        </div>
+        <h3>Carrousselle</h3>
+        <div class="droite15">&nbsp;</div>
+        <div class="carrousel4">
+            <div class="carroussel154">
+                <img id="img1" class="image154" src="/public/images/aquaman.jpg"/>
+                <img id="img2" class="image154" src="/public/images/hero.jpg"/>
+                <img id="img3" class="image154" src="/public/images/NoPath - Copie 2.jpg"/>
+                <img id="img4" class="image154" src="/public/images/spiderman.jpg"/>
+            </div>
+        </div>
+        <script>carrousel();</script>
     </main>
     <footer class="footer">
-        <img class="footer__img" src="public/icones/mail 1.svg" alt="mail">
-        <p class="footer__title">me contacter</p>
+        <p class="footer__title">contacter<img class="footer__img" src="public/icones/mail 1.svg" alt="mail"></p>
         <p class="footer__name">PierrePolJ</p>
         <p class="footer__text">Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard</p>
     </footer> 
